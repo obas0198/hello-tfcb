@@ -13,6 +13,6 @@ module "devinstance" {
   source  = "app.terraform.io/aucnet/devinstance/aws"
   version = "0.0.2"
 
-  hello_tf_instance_type = "t3.small"
+  hello_tf_instance_type = "t2.small"
   prefix = "obas-test"
 }
